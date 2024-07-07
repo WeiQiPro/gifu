@@ -1,0 +1,25 @@
+
+
+Src/
+  GifuEngine
+  Components/
+    SGFParser
+    ZobristEngine
+    GobanEngine
+    UploadEngine
+  
+
+Server/
+  BackendEngine: API on top of ComponentEngine
+  DatabaseAPI
+  WebsocketServer
+
+
+Client/
+  FrontendEngine: API on top of ComponentEngine
+  WebsocketClient
+
+  Web/
+    SPA.html
+    SPA.css
+    SPA.js
