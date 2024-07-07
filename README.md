@@ -4,7 +4,6 @@
 
 - [Description](#description)
 - [Features](#features)
-- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Documentation](#API)
@@ -22,38 +21,6 @@ GifuEngine is a robust library designed to manage a vast collection of Go (Baduk
 - API for accessing game data.
 - Modular components for easy integration and extension.
 - WebSocket support for real-time updates.
-
-## Project Structure
-
-Src/
-|__ GifuEngine/
-| |__ SGFAdapter.ts
-| |__ BoardStateHashingEngine.ts
-| |__ GobanEngine.ts
-| |__ FileHandler.ts
-|
-|__ Components/
-| |__ SGFAdapter.ts
-| |__ BoardStateHashingEngine.ts
-| |__ GobanEngine.ts
-| |__ FileHandler.ts
-|
-Server/
-|__ BackendEngine.ts
-|__ DatabaseAPI.ts
-|__ WebSocketServer.ts
-|
-Client/
-|__ FrontendEngine.ts
-|__ WebSocketClient.ts
-|
-Web/
-|__ index.html
-|__ styles.css
-|__ app.js
-|
-SGF/
-
 
 ## Installation
 
