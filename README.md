@@ -16,9 +16,9 @@
 GifuEngine is a robust library designed to manage a vast collection of Go (Baduk) opening board positions and games. It supports operations on SGF files, including parsing, sorting, and adding new games. The project aims to provide an extensive library of 4 million sorted games and opening positions up to move 50, accessible through an API.
 
 ## Features
-
-- Parse and manipulate SGF files.
+- Opening Board State Library for analytics.
 - Sort and manage a large library of Go games.
+- Parse and manipulate SGF files.
 - API for accessing game data.
 - Modular components for easy integration and extension.
 - WebSocket support for real-time updates.
