@@ -1,35 +1,81 @@
-This is a work in progress.
+# GifuEngine
 
-The goal is to have a private library of opening board positions up to the number of moves the users wish.
-The official product will have library of 4 million sorted games and opening positions up to move 50.
-This will be available through API, while allowing users to handle their own library separately.
+## Table of Contents
 
-Archived is a proof of concept that worked well, along with sorting, adding and fixing certian sgfs.
+- [Description](#description)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Documentation](#api-documentation)
+- [Contributing](#contributing)
+- [License](#license)
 
-current structure as follows:
+## Description
+
+GifuEngine is a robust library designed to manage a vast collection of Go (Baduk) opening board positions and games. It supports operations on SGF files, including parsing, sorting, and adding new games. The project aims to provide an extensive library of 4 million sorted games and opening positions up to move 50, accessible through an API.
+
+## Features
+
+- Parse and manipulate SGF files.
+- Sort and manage a large library of Go games.
+- API for accessing game data.
+- Modular components for easy integration and extension.
+- WebSocket support for real-time updates.
+
+## Project Structure
 
 Src/
-|__> GifuEngine
-|__> Components/
-|_____> SGFAdapter
-|_____> BoardStateHashingEngine
-|_____> GobanEngine
-|_____> FileHandler
-
+|__ GifuEngine/
+| |__ SGFAdapter.ts
+| |__ BoardStateHashingEngine.ts
+| |__ GobanEngine.ts
+| |__ FileHandler.ts
+|
+|__ Components/
+| |__ SGFAdapter.ts
+| |__ BoardStateHashingEngine.ts
+| |__ GobanEngine.ts
+| |__ FileHandler.ts
+|
 Server/
-|__> BackendEngine: Adpater of GifuEngine
-|__> DatabaseAPI
-|__> WebSocketServer
-
+|__ BackendEngine.ts
+|__ DatabaseAPI.ts
+|__ WebSocketServer.ts
+|
 Client/
-|__> FrontendEnginge: Adapter of GifuEngine
-|__> WebSocketClient
-
+|__ FrontendEngine.ts
+|__ WebSocketClient.ts
+|
 Web/
--- WIP
+|__ index.html
+|__ styles.css
+|__ app.js
+|
+SGF/
 
-SGF/ holds all the private games
 
+## Installation
 
-Thanks,
-Jeremiah Donley
+### Prerequisites
+
+- [Deno](https://deno.land/) (latest version)
+- [Rust](https://www.rust-lang.org/tools/install) (latest version)
+
+### Steps
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/GifuEngine.git
+    cd GifuEngine
+    ```
+
+2. Install dependencies:
+WIP
+
+## Usage
+
+### Running the Server
+
+Start the backend server:
+WIP
