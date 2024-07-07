@@ -71,11 +71,29 @@ SGF/
     ```
 
 2. Install dependencies:
-WIP
+    WIP
 
 ## Usage
 
 ### Running the Server
 
 Start the backend server:
-WIP
+    WIP
+
+### API
+
+    WIP
+
+
+Contributing
+Contributions are welcome! Please follow these steps to contribute:
+
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Commit your changes (git commit -m 'Add some feature').
+Push to the branch (git push origin feature-branch).
+Open a pull request.
+Please ensure your code follows the project's coding standards and includes tests where applicable.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
